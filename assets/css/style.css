@@ -1,0 +1,360 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto-Regular";
+}
+
+header {
+  height: 120px;
+}
+
+h1 {
+  font-family: "Roboto-Bold";
+  font-size: 4.5rem;
+  text-align: center;
+ 
+}
+
+p {
+  font-family: "Roboto-Light";
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+.nav-logo {
+  position: absolute;
+  top: 2px;
+  left: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
+}
+
+#section1-banner {
+  background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  position: relative;
+}
+
+#section1-banner h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#section1-banner .btn-banner {
+  background-color: rgb(240, 81, 134);
+  padding: 18px 55px;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#section2-concept h2 {
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#section2-concept > p {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.container-concept {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container-concept h3 {
+  font-family: "Roboto-Bold";
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+
+.concept-content {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.hr1 {
+  height: 1px;
+  background-color: rgb(9, 243, 243);
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-65%);
+  margin: 70px;
+}
+
+#section3-method h2 {
+  text-align: center;
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#section3-method > p {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-bottom: 40px;
+}
+
+#section3-method span {
+  font-family: "Roboto-Bold";
+}
+
+#section3-method .btn-method {
+  border: 1px solid rgb(240, 81, 134);
+  padding: 13px 65px;
+  border-radius: 6px;
+  color:  rgb(240, 81, 134);
+  font-size: 1.1rem;
+  font-family: "Roboto-Bold";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container-content {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container-content .content {
+  
+  width: 15%;
+  height: 300px;
+  text-align: center;
+  padding: 0 50px;
+  margin: 50px;
+}
+
+.container-content .content h3 {
+  font-family: "Roboto-Bold";
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+
+
+#section4-service .title-service {
+  font-family: "Roboto-Bold";
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#section4-service .para1 {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+#section4-service .para2 {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+#section4-service .para2 span {
+  font-family: "Roboto-Bold";
+}
+
+.container-service {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 40px;
+  margin-top: 50px;
+}
+
+#section4-service .service h2 {
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#section4-service .service  p {
+  font-size: 1.6rem;
+  font-family: "Roboto-Regular";
+  text-align: center;
+  line-height: 60px;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  border: 1px solid rgb(240, 81, 134);
+  padding: 12px 45px;
+  border-radius: 6px;
+  color: rgb(240, 81, 134);
+  font-size: 1.2rem;
+  font-family: "Roboto-Bold";
+}
+
+#section4-service .service .s1 {
+  border: 20px solid;
+  border-color: white white rgb(117, 209, 246) white ;
+}
+
+#section4-service .service .s2 {
+  border: 20px solid;
+  border-color: white white rgb(241, 214, 105) white ;
+}
+
+#section4-service .service .s3 {
+  border: 20px solid;
+  border-color: white white rgb(177, 67, 201) white ;
+}
+
+#section5-comment h2 {
+  text-align: center;
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  padding-bottom: 60px;
+}
+
+.container-profil {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 100px;
+}
+
+.container-profil .profil {
+  height: 550px;
+  padding: 20px 10px;
+  border: 1px solid rgb(5, 196, 196);
+  margin: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.container-profil .profil h3 {
+  font-family: "Roboto-Bold";
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.container-profil .profil .logo-staff {
+  position: absolute;
+  top: -10%;
+  transform: translateX(-50%);
+}
+
+.container-profil .profil .p1 {
+  font-family: "Roboto-Light";
+  font-size: 1.3rem;
+  padding-bottom: 45px;
+}
+
+#section6-blog h2 {
+  text-align: center;
+  font-family: "Roboto-Bold";
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+#section6-blog > p {
+  font-size: 1.3rem;
+  font-family: "Roboto-light";
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 65px;
+}
+
+.container-blog1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-blog1 h3 {
+  font-family: "Roboto-Bold";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 12px;
+}
+
+.container-blog1 p {
+  padding: 15px;
+}
+
+.container-blog1 .btn {
+  padding: 10px 70px;
+  position: absolute;
+  left: 41%;
+}
+
+.container-blog2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-blog2 h3 {
+  font-family: "Roboto-Bold";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 12px;
+}
+
+.container-blog2 p {
+  padding: 15px;
+}
+
+.container-blog2 .btn {
+  padding: 10px 70px;
+  position: absolute;
+  left: 41%;
+}
+
+
+
+
+
+ 
